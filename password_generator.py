@@ -1,6 +1,5 @@
 import random
 import string
-
 def generate_password(length):
     if length < 4:
         return "Password length should be at least 4."
