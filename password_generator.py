@@ -8,7 +8,6 @@ def generate_password(length):
     upper = string.ascii_uppercase
     digits = string.digits
     symbols = string.punctuation
-
     # Ensure at least one character from each category
     password = [
         random.choice(lower),
