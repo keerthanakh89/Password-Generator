@@ -21,8 +21,6 @@ def generate_password(length):
     # Shuffle password
     random.shuffle(password)
     return "".join(password)
-
-
 # Main Program
 print("🔐 Welcome to Password Generator 🔐")
 length = int(input("Enter password length: "))
