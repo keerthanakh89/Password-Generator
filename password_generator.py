@@ -20,7 +20,6 @@ def generate_password(length):
     password += random.choices(all_characters, k=length - 4)
     # Shuffle password
     random.shuffle(password)
-
     return "".join(password)
 
 
