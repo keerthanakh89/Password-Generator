@@ -3,7 +3,6 @@ import string
 def generate_password(length):
     if length < 4:
         return "Password length should be at least 4."
-
     # Character sets
     lower = string.ascii_lowercase
     upper = string.ascii_uppercase
